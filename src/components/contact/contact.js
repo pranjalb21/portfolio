@@ -7,7 +7,7 @@ import Details from "./details";
 const Contact = () => {
   return (
     <>
-      <Typography variant="h3" align="center" gutterBottom>
+      <Typography variant="h4" align="center" gutterBottom>
         You can reach out to me by following ways
       </Typography>
       <Typography variant="h5" align="center" gutterBottom>

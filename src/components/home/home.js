@@ -33,7 +33,7 @@ const Home = () => {
                 color="textSecondary"
                 gutterBottom
               >
-                FullStack developer
+                Backend developer
               </Typography>
             </Container>
           </div>

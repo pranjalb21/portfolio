@@ -12,6 +12,7 @@ const Details = () => {
         aria-label="InstagramIcon"
         target="_blank"
         href="https://www.instagram.com/pranjalgain/"
+        color="secondary"
       >
         <InstagramIcon fontSize="large" />
       </IconButton>
@@ -19,6 +20,7 @@ const Details = () => {
         aria-label="FacebookIcon"
         target="_blank"
         href="https://www.facebook.com/pranjal.gain.5/"
+        color="primary"
       >
         <FacebookIcon fontSize="large" />
       </IconButton>
@@ -26,6 +28,7 @@ const Details = () => {
         aria-label="GitHubIcon"
         target="_blank"
         href="https://github.com/pranjalb21"
+        color='default'
       >
         <GitHubIcon fontSize="large" />
       </IconButton>
@@ -33,6 +36,7 @@ const Details = () => {
         aria-label="LinkedInIcon"
         target="_blank"
         href="https://www.linkedin.com/in/pranjal-gain-648b5b109/"
+        color="primary"
       >
         <LinkedInIcon fontSize="large" />
       </IconButton>
