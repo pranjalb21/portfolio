@@ -1,8 +1,10 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import Education from "./education";
+import useStyle from "../style";
 
 const About = () => {
+  const classes = useStyle();
   return (
     <>
       <Typography variant="h2" gutterBottom align="center">
@@ -18,7 +20,9 @@ const About = () => {
         of Engineering and Textile Technology Berhampore. I'm a fullstack web
         developer enthusiast.
       </Typography>
-      <Education />
+      <div className={classes.container}>
+        <Education />
+      </div>
     </>
   );
 };
