@@ -1,1 +1,0 @@
-export const MyEmail = "pranjalgain3gfiurwv";
