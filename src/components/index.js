@@ -1,7 +1,6 @@
 import React from "react";
 
 import Home from "./home/home";
-import Apbar from "./navbar/apbar";
 import Error from "./error/error";
 import About from "./about/about";
 import Project from "./projects/project";
@@ -14,7 +13,6 @@ const Index = () => {
     <>
       <Router>
         <CssBaseline />
-        <Apbar />
         <Switch>
           <Route exact path="/">
             <Home />

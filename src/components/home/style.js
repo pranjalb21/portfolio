@@ -18,11 +18,14 @@ const useStyles = makeStyles({
   paper: {
     backgroundImage:
       "linear-gradient(to left bottom, #370505, #350917, #311021, #2b1628, #241b2c)",
-    height: "101vh",
+    height: "100vh",
   },
   img: {
     height: "200px",
     width: "200px",
+  },
+  btn: {
+    color: "#16a085",
   },
 });
 

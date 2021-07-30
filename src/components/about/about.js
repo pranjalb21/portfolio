@@ -1,12 +1,12 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
+import { Paper, Typography } from "@material-ui/core";
 import Education from "./education";
 import useStyle from "../style";
 
 const About = () => {
   const classes = useStyle();
   return (
-    <>
+    <Paper className={classes.paper}>
       <Typography variant="h2" gutterBottom align="center">
         About Me
       </Typography>
@@ -23,7 +23,7 @@ const About = () => {
       <div className={classes.container}>
         <Education />
       </div>
-    </>
+    </Paper>
   );
 };
 

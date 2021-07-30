@@ -5,9 +5,11 @@ import {
   Typography,
   Divider,
   Avatar,
+  Button,
 } from "@material-ui/core";
 import { Facebook, GitHub, Instagram, LinkedIn } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 import { BIO, NAME } from "../../assets/constant";
 import image from "../../assets/DSC01286.JPG";
 import useStyles from "./style";
@@ -17,6 +19,45 @@ const Home = () => {
   return (
     <>
       <Paper className={classes.paper} square>
+        <Grid container justifyContent="flex-end">
+          <Grid item>
+            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+              <Button color="primary" className={classes.btn}>
+                Home
+              </Button>
+            </Link>
+          </Grid>
+          <Grid item>
+            <Link
+              to="/about"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <Button color="primary" className={classes.btn}>
+                About
+              </Button>
+            </Link>
+          </Grid>
+          <Grid item>
+            <Link
+              to="/project"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <Button color="primary" className={classes.btn}>
+                Project
+              </Button>
+            </Link>
+          </Grid>
+          <Grid item>
+            <Link
+              to="/contact"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <Button color="primary" className={classes.btn}>
+                Contact
+              </Button>
+            </Link>
+          </Grid>
+        </Grid>
         <Grid
           className={classes.root}
           container
