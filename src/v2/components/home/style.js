@@ -1,19 +1,29 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from "@material-ui/styles";
 
-export const useStyle = makeStyles({
-  button: {
-    marginTop: "30px",
-    color: " #FCAF45",
-  },
-  footer: {
-    marginTop: "50px",
-  },
-  textTitle: {
+const useStyles = makeStyles({
+  icons: {
     color: "white",
-    textShadow: "5px 5px 10px black",
+    "&:hover": {
+      color: "#4FE2BE",
+    },
+    fontSize: "2rem",
   },
-  textAbout: {
-    color: "#95a5a6",
-    textShadow: "4px 5px 10px black",
+  text: {
+    color: "white",
+    fontFamily: "'Changa', sans-serif",
+  },
+  root: {
+    paddingTop: "20vh",
+  },
+  paper: {
+    backgroundImage:
+      "linear-gradient(to left bottom, #370505, #350917, #311021, #2b1628, #241b2c)",
+    height: "101vh",
+  },
+  img: {
+    height: "200px",
+    width: "200px",
   },
 });
+
+export default useStyles;

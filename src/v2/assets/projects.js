@@ -1,6 +1,6 @@
 import stopwatch from './stopwatch.png';
 import travel from './travelling.png';
-export const projects = [
+const projects = [
   {
     id: 1,
     project_title: "Travelling Blog",
@@ -19,3 +19,4 @@ export const projects = [
     project_code: "https://github.com/pranjalb21/stopwatch",
   },
 ];
+export default projects;
