@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './about/about'
+import Footer from './footer/footer'
 import Home from './home/home'
 
 const Index = () => {
@@ -7,6 +8,7 @@ const Index = () => {
         <>
             <Home />
             <About />
+            <Footer />
         </>
     )
 }

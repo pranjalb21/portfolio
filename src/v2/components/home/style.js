@@ -4,7 +4,7 @@ const useStyles = makeStyles({
   icons: {
     color: "white",
     "&:hover": {
-      color: "#4FE2BE",
+      color: "#2ecc71",
     },
     fontSize: "2rem",
   },
@@ -18,7 +18,8 @@ const useStyles = makeStyles({
   paper: {
     backgroundImage:
       "linear-gradient(to left bottom, #370505, #350917, #311021, #2b1628, #241b2c)",
-    height: "101vh",
+    height: "100vh",
+    width: "100vw",
   },
   img: {
     height: "200px",

@@ -1,7 +1,7 @@
-import { Grid, IconButton, Paper, Typography, Divider, Avatar } from "@material-ui/core";
+import { Grid, IconButton, Paper, Typography, Avatar } from "@material-ui/core";
 import { Facebook, GitHub, Instagram, LinkedIn } from "@material-ui/icons";
 import React from "react";
-import {BIO, NAME} from '../../assets/constant';
+import {BIO, FACEBOOK_ADDRESS, GITHUB_ADDRESS, INSTAGRAM_ADDRESS, LINKEDIN_ADDRESS, NAME} from '../../assets/constant';
 import image from '../../assets/DSC01286.JPG';
 import useStyles from "./style";
 
@@ -37,19 +37,19 @@ const Home = () => {
             alignItems="flex-start"
             justifyContent="center"
           >
-            <IconButton>
+            <IconButton href={FACEBOOK_ADDRESS} target='_blank'>
               <Facebook className={classes.icons} />
             </IconButton>
 
-            <IconButton>
+            <IconButton href={INSTAGRAM_ADDRESS} target='_blank'>
               <Instagram className={classes.icons} />
             </IconButton>
 
-            <IconButton>
+            <IconButton href={LINKEDIN_ADDRESS} target='_blank'>
               <LinkedIn className={classes.icons} />
             </IconButton>
 
-            <IconButton>
+            <IconButton href={GITHUB_ADDRESS} target='_blank'>
               <GitHub className={classes.icons} />
             </IconButton>
           </Grid>
