@@ -102,7 +102,7 @@ const About = () => {
                 Mobile : {MOBILE_NO}
               </Typography>
               <Typography variant="h6" className={classes.text} gutterBottom>
-                Website : <a href={PORTFOLIO} target='_blank' className={classes.link}>{PORTFOLIO}</a>
+                Website : <a href={PORTFOLIO} target='_blank' className={classes.link} rel='noreferrer'>{PORTFOLIO}</a>
               </Typography>
             </Grid>
             <Grid item>
