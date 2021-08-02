@@ -6,6 +6,7 @@ import {
   Stepper,
   Step,
   StepLabel,
+  Button,
 } from "@material-ui/core";
 import React from "react";
 import useStyles from "./style";
@@ -17,6 +18,7 @@ import {
   MOBILE_NO,
   NAME,
   PORTFOLIO,
+  RESUME,
   SKILLS,
 } from "../../assets/constant";
 import SchoolIcon from '@material-ui/icons/School';
@@ -54,6 +56,15 @@ const About = () => {
               <Typography className={classes.text} variant="h6" gutterBottom>
                 {ABOUT}
               </Typography>
+              <Button
+                variant="outlined"
+                href={RESUME}
+                target="_blank"
+                color="secondary"
+                className={classes.btn}
+              >
+                See Resume
+              </Button>
             </Grid>
           </Grid>
           <Grid
@@ -91,7 +102,7 @@ const About = () => {
                 Mobile : {MOBILE_NO}
               </Typography>
               <Typography variant="h6" className={classes.text} gutterBottom>
-                Website : {PORTFOLIO}
+                Website : <a href={PORTFOLIO} target='_blank' className={classes.link}>{PORTFOLIO}</a>
               </Typography>
             </Grid>
             <Grid item>

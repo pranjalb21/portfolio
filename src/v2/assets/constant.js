@@ -1,3 +1,4 @@
+import resume from '../assets/Pranjal_Gain.pdf';
 export const EMAIL_ADDRESS = "pranjalgain052@gmail.com";
 export const MOBILE_NO = 9800384120;
 export const FACEBOOK_ADDRESS = "https://www.facebook.com/pranjal.gain.5/";
@@ -17,3 +18,4 @@ export const ADDRESS =
   "Vill - Sadarpur, P.O. - Bhebia, P.S. - Hasnabad, Dist - North 24 Parganas, West Bengal, Pin - 743456";
 export const COPYRIGHT = "Copyright © 2021";
 export const VERSION = 'v2.0';
+export const RESUME = resume;
