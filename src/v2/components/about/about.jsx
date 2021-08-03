@@ -102,7 +102,15 @@ const About = () => {
                 Mobile : {MOBILE_NO}
               </Typography>
               <Typography variant="h6" className={classes.text} gutterBottom>
-                Website : <a href={PORTFOLIO} target='_blank' className={classes.link} rel='noreferrer'>{PORTFOLIO}</a>
+                Website :{" "}
+                <a
+                  href={PORTFOLIO}
+                  target="_blank"
+                  className={classes.link}
+                  rel="noreferrer"
+                >
+                  {PORTFOLIO}
+                </a>
               </Typography>
             </Grid>
             <Grid item>
@@ -114,7 +122,11 @@ const About = () => {
                 {SKILLS.map((skill, index) => (
                   <span key={index}>
                     {skill}
-                    {index < 3 ? ", " : index === 3 ? " and " : ""}
+                    {index < SKILLS.length - 2
+                      ? ", "
+                      : index === SKILLS.length - 2
+                      ? " and "
+                      : ""}
                   </span>
                 ))}
               </Typography>

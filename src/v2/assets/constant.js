@@ -11,7 +11,7 @@ export const BIO = "Full Stack Developer Enthusiast";
 export const NAME = "Pranjal Gain";
 export const DOB = "6th October 1998";
 export const PORTFOLIO = "https://pranjal-gain.netlify.app/";
-export const SKILLS = ["C", "C++", "Python", "ReactJs", "MySQL"];
+export const SKILLS = ["C", "C++", "Python", "ReactJs", "MySQL", 'JavaScript'];
 export const ABOUT =
   "Undergraduated in Computer Science and Engineering from Government College of Engineering and Textile Technology Berhampore. I am interested in full stack development.";
 export const ADDRESS =
